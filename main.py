@@ -12,6 +12,7 @@ def main():
     clean_attractions()
     geolocate_attractions()
     generate_map()
+    logging.info("Backend is running successfully.")
     logging.info("Pipeline complete. Check maps/somalia_tourism_map.html.")
 
 if __name__ == "__main__":
